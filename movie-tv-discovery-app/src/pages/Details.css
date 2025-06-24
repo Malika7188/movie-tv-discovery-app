@@ -1,0 +1,76 @@
+.details-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  color: #f9f9f9;
+  background-color: #121212;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.poster {
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.meta-info {
+  flex: 1;
+}
+
+.meta-info h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  color: #ffdd57;
+}
+
+.meta-info p {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #57d3ff;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.3rem;
+}
+
+.cast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.cast-card {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.03);
+}
+
+.cast-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.cast-name {
+  font-weight: bold;
+  margin-top: 0.5rem;
+  color: #ffffff;
+}
+
+.cast-character {
+  font-size: 0.85rem;
+  color: #aaa;
+}
