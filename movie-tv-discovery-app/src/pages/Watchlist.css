@@ -1,0 +1,32 @@
+/* src/pages/Watchlist.css */
+.watchlist-container {
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.watchlist-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.watchlist-item {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 180px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.watchlist-item:hover {
+  transform: scale(1.05);
+}
+
+.watchlist-item img {
+  width: 100%;
+  border-radius: 6px;
+}
