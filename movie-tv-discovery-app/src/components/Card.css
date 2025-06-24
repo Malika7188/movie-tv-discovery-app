@@ -1,0 +1,26 @@
+/* src/components/Card.css
+.card {
+  background: #1f1f1f;
+  border-radius: 10px;
+  padding: 0.5rem;
+  width: 180px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+  color: white;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.card-title {
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+.card-type {
+  font-size: 0.7rem;
+  color: #aaa;
+} */
