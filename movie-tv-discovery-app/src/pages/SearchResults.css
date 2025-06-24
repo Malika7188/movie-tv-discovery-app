@@ -1,0 +1,38 @@
+.search-results-container {
+  padding: 2rem;
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.result-card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 0.5rem;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.result-card:hover {
+  transform: scale(1.05);
+}
+
+.result-card img {
+  width: 100%;
+  border-radius: 6px;
+}
