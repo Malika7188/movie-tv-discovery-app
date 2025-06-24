@@ -1,12 +1,15 @@
 // src/index.js
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css"; // You can customize this later
+import "./index.css";
 import App from "./App";
+import { WatchlistProvider } from "./context/WatchlistContext"; // ✅ import the provider
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <WatchlistProvider> {/* ✅ Wrap the entire app */}
+      <App />
+    </WatchlistProvider>
   </React.StrictMode>
 );
