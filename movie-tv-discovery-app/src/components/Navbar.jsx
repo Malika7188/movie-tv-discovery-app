@@ -1,33 +1,17 @@
-// src/components/Navbar.jsx
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="logo">🎬 Discover</div>
+      <h1 className="logo"> 🍿StreamLika </h1> 
+      {/* FilmFlix */}
       <ul className="nav-links">
-        <li>
-          <NavLink to="/" exact="true" activeclassname="active">
-            Home
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/search" activeclassname="active">
-            Search
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/trending" activeclassname="active">
-            Trending
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/watchlist" activeclassname="active">
-            Watchlist
-          </NavLink>
-        </li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/search">Search</Link></li>
+        <li><Link to="/trending">Trending</Link></li>
+        <li><Link to="/watchlist">Watchlist</Link></li>
       </ul>
     </nav>
   );
